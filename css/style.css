@@ -1,0 +1,46 @@
+
+body{
+    background-color: bisque;
+}
+
+#main_p{
+    color: red
+}
+
+.class{
+
+}
+
+.class
+@import url('https://fonts.google.com/share?selection.family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900');
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(200, 200, 200)
+    font-family: 'Roboto', san-serif;
+}
+
+#main_p{
+    color: red;
+
+}
+
+.first_section{
+    background-color: :gainsboro;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 50px;
+}
+
+.first_section p{
+    font-size: 20px;
+}
+
+.first_section h3{
+
+
+
+}
