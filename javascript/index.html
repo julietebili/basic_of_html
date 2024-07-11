@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title id="title"></title>
+        <!-- internal css -->
+        <style>
+            p{
+              font-size: 30px;  
+              color: blue;
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body onClic="changeBackgroundColor(this)";>
+        <header class="welcome_header">
+            <h1 style="color:red" font-size="14">My Website</h1>
+            <nav>
+                <ul>
+                    <li><a href "">Home </a></li>
+                    <li><a href "">About </a></li>
+                    <li><a href "">Contact </a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2 onClick="changeColor(this)">Main Content</h2>
+            <p id="main_p"> This is the main content of the page.</p>
+
+            <section class="class class-two">
+                <h3 id="benefit_heading">Benefits of Semantic Elements</h3>
+                <p onclick="changeColor(this)" >They improve code readiability and enchance accessibiltiy</p>
+            </section>
+            
+            <figure>
+                <img onClick="changeImage(item);" src="..\images\cable.jpeg" width="600" height="400" alt="cardboard">
+            </figure>
+        <aside>
+            <h3 id="benefit_heading">Related links</h3>
+            <ul>
+                <li><a href="">Understanding HTML"</a><li>
+            </ul>
+        </aside>
+        </main>
+        <footer>
+            <p>&copy; 2024. My Website All right reserved. </p>
+        </footer>
+        <!--external js file-->
+        <script src="examples.js"></script>
+    </body>
+</html>
+        
+
+    </body>
+</html>

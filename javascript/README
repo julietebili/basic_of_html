@@ -1,0 +1,64 @@
+/*
+
+*/
+
+// fixed values
+// variable values   - local variables
+                  // - global variables
+//statement;
+
+a = 10;
+
+//var variable name = value;
+var b = 20;
+
+
+// let variable name = value; block scope
+//let c = 15;
+
+// const variable name = value;
+//const pi = 3.1452;
+
+
+//javascript operators
+// +, -, /, *, %, ++, --
+
+
+//console.log(a + b + c);
+//console.log(a*b);
+//console.log(++a);
+
+// data types
+// numbers - intergers, decimals
+// strings - charcter
+// boolean - true/false
+// arrays - 
+//var array = ["toyota", "nissan", "volvo"]
+//console.log(array);
+
+//comparison: ==, ===, !=, >, <, >=, <=
+//console.log(a == b);
+
+//logical operators:  &&, ||, !
+//console.log(  (a >= 10 && b < 20)   )
+// Data types
+// boolean types- True or false
+// 1. Numbers - integers / decimals
+// 2. strings - text / character
+// 3. Boolean - true or false
+
+//object+
+//var person = { firstName:"Juliet", location:"Nigeria", course: "web" }
+//console.log(person.firstName);
+
+
+//function functionName(){
+    // statement (code)
+    // return
+//}
+
+function multiply(a,b,b){
+    return a * b * b
+}
+
+console.log(multiply(13,14.90));
